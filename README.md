@@ -2,7 +2,11 @@
 
 ## About This Project
 
-#Portfolio consists of a composition of both HTML and Advanced CSS. The project was to build our first website landing page that featured a variety of Advanced CSS programming tools that help feature a more "user-engaging" version of a website. 
+#Portfolio is a website that consists of a composition of both HTML and Advanced CSS. For design purposes, I built my website around the FPS game: Apex Legends. 
+
+    My purpose for using a gaming theme revolves around my intent of applying to companies such as Twitch. I would like to portray my ability to both graphically design on the front end and web design on the back end. 
+
+ This project's purpose was for us to build our first landing -- a page that features not only ourselves as candiates, but also our ability to use a variety of Advanced CSS programming tools that help feature a more "user-engaging" version of a website. 
 
     - By user engaging, I mean "interactive."
         - For example, the <nav> bar in the header has 4 individual links attached to the 4 individual key words (i.e."Social" links to my Instagram page).
