@@ -4,7 +4,6 @@
 }
 
 .header h1{
-    padding: 20px;
     text-align: center;
     text-shadow: 1px 1px hsl(356,62%,50%);
     background: #011638;
@@ -28,7 +27,6 @@
 }
 
 .content h2 {
-    padding: 20px;
     text-align: center;
     background: #011638;
     color: hsl(356,62%,50%);
@@ -39,19 +37,11 @@
 }
 
 
-
 h2 {
     font-size: 30px;
     text-shadow: 1px 1px #eec643;
     text-align: center;
     text-decoration-color: #011638;
-}
-
-.content h3 {
-    font-size: 30px;
-    display: inline-block;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .hello {
@@ -67,6 +57,7 @@ nav {
     text-align: center;
     font-size: 27px;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 #me {
@@ -95,6 +86,13 @@ nav {
 .card h3 {
     position: absolute;
     text-shadow: 1px 1px #eec643;
+}
+
+.content h3 {
+    font-size: 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .content h4 {
@@ -145,13 +143,11 @@ a:active {
 }
 
 .contact h2 {
-    padding: 20px;
     text-shadow: 1px 1px hsl(356,62%,50%);
     text-align: center;
     background: #011638;
     color: #eec643;
     font-size: 30px;
-    display: flex;
     margin: auto;
     display: inline-block;
 }
@@ -162,14 +158,8 @@ a:active {
   
 @media screen and (max-width: 768px) {
     content,
-    h2 {
+    h2,
+    .footer 
       flex-direction: column;
 }
-
-/* @media screen and (max-width: 600px) { */
-    .content {
-      float: none;
-      width: 100%;
-    }
-  }
 
